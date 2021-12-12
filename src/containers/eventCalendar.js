@@ -99,7 +99,7 @@ class EventCalendar extends Component {
                     views = {['month', 'agenda']}                  
                     step={60}
                     showMultiDayTimes
-                    defaultDate={new Date(moment().date())}
+                    defaultDate={new Date()}
                     onSelectEvent={event => this.handleShow(event, 'edit')}
                     onSelectSlot={slotInfo => this.handleShow(slotInfo, 'add')}
                     style={{ minHeight: '500px' }}
